@@ -3,9 +3,17 @@
 *.vcxproj
 *.vcxproj.filters
 *.sln
+*.rc
+*.exe
+RC*
 
 *.pyc
 
 CMakeFiles/*
+.vs/*
+x64/*
+*.dir/*
+Release/*
 
 CMakeCache.txt
+resource.h
