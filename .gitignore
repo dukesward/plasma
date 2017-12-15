@@ -1,0 +1,11 @@
+
+*.cmake
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+*.pyc
+
+CMakeFiles/*
+
+CMakeCache.txt
