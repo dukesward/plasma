@@ -1,8 +1,8 @@
-import plasma.entry
+import plasma.entry as entry
 
 def main():
 	print ("hello plazma")
-	test()
+	entry.test()
 	return
 
 if __name__ == "__main__":

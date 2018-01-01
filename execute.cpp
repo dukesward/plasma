@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
 	// build python name project
 	// this is no longer available in python 3
 	// pName = PyString_FromString(argv[1]);
-	//pName = PyBytes_FromString("plasma");
 
 	// load python module object
 	pModule = PyImport_ImportModule("plasma.entry");
@@ -36,6 +35,11 @@ int main(int argc, char *argv[])
 		// if func is callable, call python function
 		printf("Found python callable function: plasma.entry.test\n");
 		pValue = PyObject_CallObject(pFunc, NULL);
+		// this is no longer available in python 3
+		// printf(PyString_AsString(pValue));
+
+		// everything related to string is now classfied as unicode
+		printf(PyUnicode_AsUTF8(pValue));
 	}
 	else
 	{
@@ -45,7 +49,7 @@ int main(int argc, char *argv[])
 
 	// no need to decref borrowed references
 	Py_DECREF(pModule);
-	//Py_DECREF(pName);
+	// Py_DECREF(pName);
 	Py_DECREF(pValue);
 	// call finalize function
 	Py_Finalize();

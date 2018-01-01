@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<DBFilesClient>
+  <Table Name="Spell" Build="11792">
+    <Field Name="m_ID" Type="int" IsIndex="true" />
+    <Field Name="m_category" Type="int" />
+    <Field Name="m_dispelType" Type="int" />
+    <Field Name="m_mechanic" Type="int" />
+    <Field Name="m_attributes" Type="int" />
+    <Field Name="m_attributesEx" Type="int" />
+    <Field Name="m_attributesExB" Type="int" />
+    <Field Name="m_attributesExC" Type="int" />
+    <Field Name="m_attributesExD" Type="int" />
+    <Field Name="m_attributesExE" Type="int" />
+    <Field Name="m_attributesExF" Type="int" />
+    <Field Name="m_attributesExG" Type="int" />
+    <Field Name="m_attributesExH" Type="int" />
+    <Field Name="m_shapeshiftMask" Type="int" ArraySize="2" />
+    <Field Name="m_shapeshiftExclude" Type="int" ArraySize="2" />
+    <Field Name="m_targets" Type="int" />
+    <Field Name="m_targetCreatureType" Type="int" />
+    <Field Name="m_requiresSpellFocus" Type="int" />
+    <Field Name="m_facingCasterFlags" Type="int" />
+    <Field Name="m_casterAuraState" Type="int" />
+    <Field Name="m_targetAuraState" Type="int" />
+    <Field Name="m_excludeCasterAuraState" Type="int" />
+    <Field Name="m_excludeTargetAuraState" Type="int" />
+    <Field Name="m_casterAuraSpell" Type="int" />
+    <Field Name="m_targetAuraSpell" Type="int" />
+    <Field Name="m_excludeCasterAuraSpell" Type="int" />
+    <Field Name="m_excludeTargetAuraSpell" Type="int" />
+    <Field Name="m_castingTimeIndex" Type="int" />
+    <Field Name="m_recoveryTime" Type="int" />
+    <Field Name="m_categoryRecoveryTime" Type="int" />
+    <Field Name="m_interruptFlags" Type="int" />
+    <Field Name="m_auraInterruptFlags" Type="int" ArraySize="2" />
+    <Field Name="m_channelInterruptFlags" Type="int" ArraySize="2" />
+    <Field Name="m_procTypeMask" Type="int" />
+    <Field Name="m_procChance" Type="int" />
+    <Field Name="m_procCharges" Type="int" />
+    <Field Name="m_maxLevel" Type="int" />
+    <Field Name="m_baseLevel" Type="int" />
+    <Field Name="m_spellLevel" Type="int" />
+    <Field Name="m_durationIndex" Type="int" />
+    <Field Name="m_powerType" Type="int" />
+    <Field Name="m_manaCost" Type="int" />
+    <Field Name="m_manaCostPerLevel" Type="int" />
+    <Field Name="m_manaPerSecond" Type="int" />
+    <Field Name="m_rangeIndex" Type="int" />
+    <Field Name="m_speed" Type="float" />
+    <Field Name="m_modalNextSpell" Type="int" />
+    <Field Name="m_cumulativeAura" Type="int" />
+    <Field Name="m_totem" Type="int" ArraySize="2" />
+    <Field Name="m_reagent" Type="int" ArraySize="8" />
+    <Field Name="m_reagentCount" Type="int" ArraySize="8" />
+    <Field Name="m_equippedItemClass" Type="int" />
+    <Field Name="m_equippedItemSubclass" Type="int" />
+    <Field Name="m_equippedItemInvTypes" Type="int" />
+    <Field Name="m_effect" Type="int" ArraySize="3" />
+    <Field Name="m_effectDieSides" Type="int" ArraySize="3" />
+    <Field Name="m_effectRealPointsPerLevel" Type="float" ArraySize="3" />
+    <Field Name="m_effectBasePoints" Type="int" ArraySize="3" />
+    <Field Name="m_effectMechanic" Type="int" ArraySize="3" />
+    <Field Name="m_implicitTargetA" Type="int" ArraySize="3" />
+    <Field Name="m_implicitTargetB" Type="int" ArraySize="3" />
+    <Field Name="m_effectRadiusIndex" Type="int" ArraySize="3" />
+    <Field Name="m_effectRadiusIndexB" Type="int" ArraySize="3" />
+    <Field Name="m_effectAura" Type="int" ArraySize="3" />
+    <Field Name="m_effectAuraPeriod" Type="int" ArraySize="3" />
+    <Field Name="m_effectAmplitude" Type="float" ArraySize="3" />
+    <Field Name="m_effectChainTargets" Type="int" ArraySize="3" />
+    <Field Name="m_effectItemType" Type="int" ArraySize="3" />
+    <Field Name="m_effectMiscValue" Type="int" ArraySize="3" />
+    <Field Name="m_effectMiscValueB" Type="int" ArraySize="3" />
+    <Field Name="m_effectTriggerSpell" Type="int" ArraySize="3" />
+    <Field Name="m_effectPointsPerCombo" Type="float" ArraySize="3" />
+    <Field Name="m_effectSpellClassMaskA" Type="int" ArraySize="3" />
+    <Field Name="m_effectSpellClassMaskB" Type="int" ArraySize="3" />
+    <Field Name="m_effectSpellClassMaskC" Type="int" ArraySize="3" />
+    <Field Name="m_spellVisualID" Type="int" ArraySize="2" />
+    <Field Name="m_spellIconID" Type="int" />
+    <Field Name="m_activeIconID" Type="int" />
+    <Field Name="m_name_lang" Type="string" />
+    <Field Name="m_nameSubtext_lang" Type="string" />
+    <Field Name="m_description_lang" Type="string" />
+    <Field Name="m_auraDescription_lang" Type="string" />
+    <Field Name="m_manaCostPct" Type="int" />
+    <Field Name="m_startRecoveryCategory" Type="int" />
+    <Field Name="m_startRecoveryTime" Type="int" />
+    <Field Name="m_maxTargetLevel" Type="int" />
+    <Field Name="m_spellClassSet" Type="int" />
+    <Field Name="m_spellClassMask" Type="int" ArraySize="3" />
+    <Field Name="m_maxTargets" Type="int" />
+    <Field Name="m_defenseType" Type="int" />
+    <Field Name="m_preventionType" Type="int" />
+    <Field Name="m_stanceBarOrder" Type="int" />
+    <Field Name="m_effectChainAmplitude" Type="float" ArraySize="3" />
+    <Field Name="m_minFactionID" Type="int" />
+    <Field Name="m_minReputation" Type="int" />
+    <Field Name="m_requiredAuraVision" Type="int" />
+    <Field Name="m_requiredTotemCategoryID" Type="int" ArraySize="2" />
+    <Field Name="m_requiredAreasID" Type="int" />
+    <Field Name="m_schoolMask" Type="int" />
+    <Field Name="m_runeCostID" Type="int" />
+    <Field Name="m_spellMissileID" Type="int" />
+    <Field Name="m_powerDisplayID" Type="int" />
+    <Field Name="m_effectBonusCoefficient" Type="float" ArraySize="3" />
+    <Field Name="m_descriptionVariablesID" Type="int" />
+    <Field Name="m_difficulty" Type="int" />
+    <Field Name="m_scalingID" Type="int" />
+  </Table>
+</DBFilesClient>

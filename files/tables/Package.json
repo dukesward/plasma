@@ -1,0 +1,23 @@
+[
+	{
+		"column": "m_ID",
+		"type": "int",
+		"index": true
+	},
+
+	{
+		"column": "m_icon",
+		"type": "int",
+		"index": true
+	},
+
+	{
+		"column": "m_cost",
+		"type": "int"
+	},
+
+	{
+		"column": "m_name_lang",
+		"type": "int"
+	}
+]

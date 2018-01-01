@@ -1,0 +1,12 @@
+[
+	{
+		"column": "m_ID",
+		"type": "int",
+		"index": true
+	},
+
+	{
+		"column": "m_cost",
+		"type": "int"
+	}
+]
